@@ -1,0 +1,560 @@
+#div_geralfds{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* SEÇÃÕ 1*/
+
+#seção1{
+    width: 100%;
+    background-image: url("../../img/Fotos_PaginaPrincipal/foto_carro_na_rua.jpeg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div_seção1{
+    margin: 50px;
+    width: 85%;
+    display: flex;justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(212, 212, 212, 0.13);
+    border-radius: 30px;
+}
+#div_texto_seção1{
+    display: flex;
+    color: rgb(196, 196, 196);
+    width: 500px;
+    font-size: 27px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#div_inputs_e_textos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#label_seção1{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 200;
+}
+#h1_caixa_principal{
+    color: #31468f;
+}
+#letras_miudas{
+    font-weight: 700;
+    font-size: 12px;
+    color: #31468f;
+    width: 150px;
+    position: relative;
+    top: 38px;
+}
+#div_inputs_seção1{
+    background-color: white;
+    width: 300PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 20px;
+}
+#div_inputs{
+    margin-top: 15px;
+}
+input {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(206, 206, 206);
+    border: 0;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+}
+#div_icone_inputs{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+#icone_inputs{
+    height: 40px;
+    width: 40px;
+}
+#label_div_inputs{
+    color: #001956;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+/* SEÇÃO 2 */
+
+.seção2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: #00a100;
+    font-size: 27px;
+}
+.div_secão2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.div_secão2 h1{
+    margin: 40px;
+}
+#imagem_seçao2{
+    width: 60%;
+}
+
+/* SEÇÃO 3 */
+
+.seção3{
+    background-color: #31468f;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 23px;
+
+}
+.div_texto_seção3{
+    margin: 30px;
+    width: 70%;
+    text-align: center;
+}
+.div_texto_seção3 p {
+    padding: 30px;
+}
+.div_texto_seção3 h1 {
+    color:#00b347;
+}
+
+/* SEÇÃO 4*/
+
+.seção4{
+    display: flex;
+    justify-content: center;
+    color: #31468f;
+    font-size: 23px;
+    margin-top: 30px;
+}
+.div_seção4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+}
+.div_seção4 iframe{
+    margin-top: 20px;
+}
+#MONKI_FLIP{
+    height: 300PX;
+    width:  100%;
+    margin: 50px;
+}
+
+/* SEÇÃO 5 */
+
+.seção5{
+    background-color: #00b347;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff ;
+    margin-top: 50px;
+}
+.div_seção5{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+.div_caixa_texto_seção5{
+    margin: 50px;
+    text-align: center;
+}
+.caixa_assistencias_geral{
+    margin: 52px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+#h1_caixa_div_assistencia{
+    font-size: 35px;
+}
+
+/* SEÇÃO 6 */
+
+.seção6{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #001956;
+}
+.div_veiculos_roubados{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.div_carros_roubados{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.div_motos_roubados{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin: 10px;
+}
+.div_h1_veiculos_roubados{
+    width: 100%;
+}
+.progress {
+    background: rgba(151, 151, 151, 0.5);
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    display: flex;
+    border-radius: 1px;
+    margin: 5px;
+}  
+.progress-value1 {
+    animation: load1 3s normal forwards;
+    background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value2 {
+    animation: load2 3s normal forwards;
+    background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value3 {
+   animation: load3 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value4 {
+    animation: load4 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value5 {
+   animation: load5 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value6 {
+   animation: load6 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value7 {
+   animation: load7 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value8 {
+   animation: load8 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value9 {
+    animation: load9 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value10 {
+    animation: load10 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes load1 {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+@keyframes load2 {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+@keyframes load3 {
+    0% { width: 0; }
+    100% { width: 55%; }
+}
+@keyframes load4 {
+    0% { width: 0; }
+    100% { width: 45%; }
+}
+@keyframes load5 {
+    0% { width: 0; }
+    100% { width: 45%; }
+}
+@keyframes load6 {
+    0% { width: 0; }
+    100% { width: 45%; }
+}
+@keyframes load7 {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+@keyframes load8 {
+    0% { width: 0; }
+    100% { width: 38%; }
+}
+@keyframes load9 {
+    0% { width: 0; }
+    100% { width: 38%; }
+}
+@keyframes load10 {
+    0% { width: 0; }
+    100% { width: 35%; }
+}
+
+
+.progress-value1_moto {
+    animation: load1_moto 3s normal forwards;
+    background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value2_moto {
+    animation: load2_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value3_moto {
+   animation: load3_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value4_moto {
+    animation: load4_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value5_moto {
+   animation: load5_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value6_moto {
+   animation: load6_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value7_moto {
+   animation: load7_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value8_moto {
+   animation: load8_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value9_moto {
+    animation: load9_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+.progress-value10_moto {
+    animation: load10_moto 3s normal forwards;
+     background: #00e600;
+    height: 20px;
+    border-radius: 1px 0px 0px 1px;
+    width: 0;
+    display: flex;
+    align-items: center;
+}
+
+.span_veiculos{
+    font-weight: 700;
+    font-size: 10px;
+    margin: 15px;
+    text-align: start;
+}
+
+@keyframes load1_moto {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+@keyframes load2_moto {
+    0% { width: 0; }
+    100% { width: 55%; }
+}
+@keyframes load3_moto {
+    0% { width: 0; }
+    100% { width: 53%; }
+}
+@keyframes load4_moto {
+    0% { width: 0; }
+    100% { width: 44%; }
+}
+@keyframes load5_moto {
+    0% { width: 0; }
+    100% { width: 44%; }
+}
+@keyframes load6_moto {
+    0% { width: 0; }
+    100% { width: 42%; }
+}
+@keyframes load7_moto {
+    0% { width: 0; }
+    100% { width: 40%; }
+}
+@keyframes load8_moto {
+    0% { width: 0; }
+    100% { width: 38%; }
+}
+@keyframes load9_moto {
+    0% { width: 0; }
+    100% { width: 37%; }
+}
+@keyframes load10_moto {
+    0% { width: 0; }
+    100% { width: 37%; }
+}
+
+/* SEÇÃO 7 */
+
+.seção7{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00a100;
+    margin-top: 50px;
+}
+.div_nossos_clientes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa_infos_clientes{
+    color: #001956; 
+    border-radius: 1px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.caixa_infos_clientes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 90px;
+    margin: 10px;;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(7, 7, 7, 0.25), 0px 0px 20px rgba(0, 0, 0, 0.082);    
+
+}
+
+.caixa_infos_clientes1 label{
+    font-size: 30px;
+    font-weight: 700;
+}
+
